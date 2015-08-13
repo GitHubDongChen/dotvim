@@ -1,9 +1,3 @@
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim_colors_solarized"]
 	path = bundle/vim_colors_solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
@@ -13,3 +7,12 @@
 [submodule "bundle/auto_pairs"]
 	path = bundle/auto_pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
