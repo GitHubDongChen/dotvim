@@ -6,6 +6,8 @@ filetype plugin indent on
 "set background=dark
 "colorscheme solarized
 
+let g:SuperTabContextDefaultCompletionType = "<c-n>"
+
 set number
 
 set scrolloff=3
