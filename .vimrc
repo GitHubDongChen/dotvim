@@ -1,6 +1,32 @@
-call pathogen#infect()
-syntax on
-filetype plugin indent on
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"  Vundle 设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+"以上都是必须要的
+
+" 如果添加的插件来自GitHub
+Plugin 'ervandew/supertab'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-airline/vim-airline'
+
+" 如果插件来自http://vim-scripts.org/vim/scripts.html
+"Plugin 'L9'
+
+" 所有插件都必须写在这一行上面
+call vundle#end()            " required
+filetype plugin indent on    " required
+"
+" see :h vundle for more details or wiki for FAQ
+" 和插件无关的配置现在之后
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 syntax enable
 set background=dark
