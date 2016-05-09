@@ -4,3 +4,18 @@
 [submodule "nerdtree"]
 	path = nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/vim-supertab"]
+	path = bundle/vim-supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/vim-auto-pairs"]
+	path = bundle/vim-auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/vim-nerdtree"]
+	path = bundle/vim-nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
